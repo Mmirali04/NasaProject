@@ -1,72 +1,140 @@
 import React from 'react'
-import planeta from "../../assets/planeta.jpg"
-import water from "../../assets/water.jpg"
-import healph from "../../assets/healph.jpg"
-import hel from "../../assets/maxresdefault.jpg"
-import meravenstvo from "../../assets/neravenstvo.webp"
+import climat from "../../assets/Climat.svg"
+import second from "../../assets/second.svg"
+import third from "../../assets/third.svg"
+import forth from "../../assets/forth.svg"
+import nasa1 from "../../assets/nasas.svg"
+import nasa2 from "../../assets/nasa2.svg"
+import nasa3 from "../../assets/nasa3.svg"
+import nasa4 from "../../assets/nasa4.svg"
+import nasa5 from "../../assets/nasa5.svg"
+import nasa6 from "../../assets/nasa6.svg"
+
  import "./Home.css"
 
 const Home = () => {
   return (
     <div>
-      <div className='flex mt-[50px]'>
-        <div className='w-[50%] ml-[30px] '>
-          <img src={planeta} className='w-[90%]  ' alt="" />
-       
-        </div>
-        <div className='w-[50%] relative right-[50px]'>
-          <p className='mt-[10px]'>Climate change 🌍🌡️: Rising global temperatures, changing weather patterns, and rising sea levels are caused by greenhouse gas emissions and ecosystem destruction. </p>
-          <p className='mt-[10px]'>Yes, climate change is one of the most serious global issues. The increase in Earth's temperature leads to a range of negative consequences, including extreme weather conditions such as severe storms, droughts, and floods. Rising sea levels threaten coastal cities and island nations. </p>
-          <p className='mt-[10px]'>  Greenhouse gas emissions, such as carbon dioxide, cause the greenhouse effect, which traps heat in the atmosphere and intensifies the greenhouse effect. This results in global warming and changes in climate conditions on Earth. </p>
-          <p className='mt-[10px]'>  Ecosystem destruction also plays a significant role in climate change. Forest fires, deforestation, and the destruction of natural habitats release a large amount of carbon into the atmosphere and reduce the ability of ecosystems to absorb carbon dioxide. </p>
-          <p className='mt-[10px]'> Addressing climate change requires reducing greenhouse gas emissions, transitioning to clean energy sources, conserving and restoring ecosystems, and taking measures to adapt to the already occurring climate changes. This is a task that needs to be tackled through collective efforts of all countries and communities.</p>        
-        </div>
-      </div>
-
-      <div className='flex mt-[100px]'>
-        <div className='w-[50%] ml-[30px]'>
-        <div className='w-[93%]'>
-          <p className='mt-[6px]'>Water issues 💧🚱: Lack of clean drinking water, water pollution, and improper water resource management pose threats to human health and life.</p> 
-          <p className='mt-[6px]'>Water scarcity and lack of access to clean drinking water are significant challenges faced by many communities around the world. This scarcity can lead to hygiene-related diseases, malnutrition, and even death. It disproportionately affects vulnerable populations, such as those living in poverty or in remote areas.</p>
-          <p className='mt-[6px]'>Water pollution, caused by industrial waste, agricultural runoff, and improper disposal of chemicals and waste, contaminates water sources and makes them unsafe for human consumption. This pollution not only affects drinking water but also harms aquatic ecosystems and biodiversity.</p>
-          <p className='mt-[6px]'>Addressing water issues requires sustainable water management practices, including conservation, efficient use, and proper treatment of water resources. It also involves implementing policies and regulations to prevent water pollution and ensure equitable access to clean water for all. Collaboration between governments, communities, and organizations is crucial in finding solutions to these water challenges. </p>
-        </div>  
-        </div>
-        
-        <div className='w-[50%]'>
-          <img src={water} alt="" />
-        </div>
-      </div>
-
-
-      <div className='flex mt-[100px]'>
-        <div className='w-[50%] ml-[30px]'>
-          <img src={hel} className='w-[90%]' alt="" />
+      <div className='hero'>
+      <div className="lg:flex">
+        <div className="text-white mt-[150px] ml-[10%]  lg:w-[50%]">
+          <p className="lg:w-[75%] text-[100px] mt-[100px]">Welcome to info Hub</p>
         </div>
 
-        <div className='w-[50%] mr-[50px]'>
-          <p className='mt-[10px]'>Здоровье и эпидемии 🌡️🌡️: Распространение инфекционных заболеваний, отсутствие доступа к качественной медицинской помощи, угроза пандемий оказывают существенное влияние на здоровье населения.</p>
-          <p className='mt-[10px]'>Инфекционные заболевания представляют собой постоянную проблему для общественного здравоохранения. Они могут быстро распространяться в сообществах, вызывая болезни, инвалидность и даже смерть. К распространенным инфекционным заболеваниям относятся респираторные инфекции, диарейные заболевания, трансмиссивные заболевания, такие как малярия и лихорадка денге, а также инфекции, передающиеся половым путем.</p> 
-          <p className='mt-[10px]'>Доступ к качественному здравоохранению необходим для профилактики, диагностики и лечения заболеваний. Однако многие люди во всем мире сталкиваются с препятствиями на пути к здравоохранению, такими как финансовые ограничения, ограниченная инфраструктура здравоохранения и неадекватные медицинские услуги в сельских или отдаленных районах. Отсутствие доступа может привести к задержке или неадекватному лечению, что приведет к ухудшению результатов в отношении здоровья.</p>
-
+        <div className="circle sm:hidden lg:inline-block mt-[100px]">
+        <div className="earth hhhhh">
         </div>
-      </div>
-
-    <div className='flex mt-[100px]'>
-      <div className='w-[50%] ml-[30px]'>
-        <div className='w-[90%]'>
-          <p className='mt-[10px]'>Poverty and Inequality 💰🤝: Many people live in extreme poverty, face social inequality, and lack access to basic services and opportunities.</p>
-          <p className='mt-[10px]'>Poverty and social inequality are serious issues that millions of people around the world experience. Poverty means not only a lack of material resources but also limited access to education, healthcare, food, water, housing, and other basic services.</p>
-          <p className='mt-[10px]'>Social inequality exacerbates the problem of poverty, as certain population groups find themselves in more vulnerable positions due to discrimination, unequal distribution of resources, and limited opportunities. This can include women, children, migrants, persons with disabilities, and other vulnerable groups.</p>
-          <p className='mt-[10px]'>Addressing poverty and social inequality requires a comprehensive approach. This includes creating equal opportunities for all, ensuring access to quality education and healthcare, promoting decent work and sustainable economic growth.</p>
-          <p className='mt-[10px]'>Government policies, social protection programs, investments in infrastructure and human capital development, as well as support for small business development and microcredit provision, can contribute to reducing poverty and inequality.</p>
+        <div className="content">
+            <div className="continents">
+                <div className="continent one">
+                    <a id="n-a" href="https://www.google.ru/maps/place/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0/@29.0686106,-153.5784602,3z/data=!3m1!4b1!4m6!3m5!1s0x52b30b71698e729d:0x131328839761a382!8m2!3d54.5259614!4d-105.2551187!16zL20vMDU5ZzQ?entry=ttu">North America</a>
+                </div>
+                <div className="continent two">
+                    <a id="s-a" href="https://www.google.ru/maps/place/%D0%AE%D0%B6%D0%BD%D0%B0%D1%8F+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0/@-13.5554014,-109.8572333,3z/data=!3m1!4b1!4m6!3m5!1s0x9409341c355d34b5:0x69d40ccfc9c6e32b!8m2!3d-8.783195!4d-55.491477!16zL20vMDZuM3k?entry=ttu">south America</a>
+                </div>
+                <div className="continent three">
+                    <a id="eur" href="https://www.google.ru/maps/place/%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0/@47.5479471,1.0083866,4z/data=!3m1!4b1!4m6!3m5!1s0x46ed8886cfadda85:0x72ef99e6b3fcf079!8m2!3d54.5259614!4d15.2551187!16zL20vMDJqOXo?entry=ttu">Europe</a>
+                </div>
+                <div className="continent four">
+                    <a id="afr" href="https://www.google.ru/maps/place/%D0%90%D1%84%D1%80%D0%B8%D0%BA%D0%B0/@1.4494091,-26.6488949,3z/data=!3m1!4b1!4m6!3m5!1s0x10a06c0a948cf5d5:0x108270c99e90f0b3!8m2!3d-8.783195!4d34.508523!16zL20vMGRnM24x?entry=ttu">Africa</a>
+                </div>
+                <div className="continent five">
+                    <a id="asi" href="https://www.google.ru/maps/place/%D0%90%D0%B7%D0%B8%D1%8F/@29,100,3z/data=!3m1!4b1!4m6!3m5!1s0x3663f18a24cbe857:0xa9416bfcd3a0f459!8m2!3d34.047863!4d100.6196553!16zL20vMGowaw?entry=ttu">Tajikistan</a>
+                </div>
+                <div className="continent six">
+                    <a id="aus" href="https://www.google.ru/maps/place/%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D1%8F/@-18.7342503,87.0416775,3z/data=!3m1!4b1!4m6!3m5!1s0x2b2bfd076787c5df:0x538267a1955b1352!8m2!3d-25.274398!4d133.775136!16zL20vMGNoZ2h5?entry=ttu">Australia</a>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div className='w-[50%] mr-[50px]'>
-        <img src={meravenstvo}  alt="" />      
-      </div>
     </div>
+
+      </div> 
+      </div>
+
+
+
+        <div className='flex mt-[100px] items-center'>
+          <div className='w-[35%]'>
+              <img src={climat} className='m-[auto]' alt="" />
+          </div>
+
+        <div className='w-[60%]'>
+            <p className='text-[80px]'>Climate change</p>
+            <p className='text-[30px]'>Rising global temperatures, changing weather patterns, and rising sea levels are caused by greenhouse gas emissions and ecosystem destruction.</p>
+            <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+        </div>
+        </div>    
+
+      <div className='flex'>
+        <div className='w-[70%] m-[auto]'>
+         <div className='w-[70%] m-[auto]'>
+          <p className='text-[80px]'>Water issues</p>
+          <p className='text-[30px]'>Lack of clean drinking water, water pollution, and improper water resource management pose threats to human health and life.</p>
+          <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+          </div> 
+        </div>
+
+        <div className='w-[30%]'>
+          <img src={second} alt="" />
+        </div>
+
+      </div>
+
+
+
+      <div className='flex mt-[100px] items-center'>
+          <div className='w-[35%]'>
+              <img src={third} className='m-[auto]' alt="" />
+          </div>
+
+        <div className='w-[60%]'>
+            <p className='text-[80px]'> Health and epidemics</p>
+            <p className='text-[30px]'>The spread of infectious diseases, lack of access to quality medical care, and the threat of pandemics have a significant impact on public health.</p>
+            <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+        </div>
+        </div> 
+
+
+        <div className='flex'>
+        <div className='w-[70%] m-[auto]'>
+         <div className='w-[70%] m-[auto]'>
+          <p className='text-[50px]'>Negative Impact of Technology</p>
+          <p className='text-[30px]'>While technology has many positive aspects and benefits, it can also have negative consequences.</p>
+          <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+          </div> 
+        </div>
+
+        <div className='w-[30%]'>
+          <img src={forth} alt="" />
+        </div>
+
+      </div>
+
+      <div className='flex flex-wrap justify-center mt-[50px]'>
+        <div>
+          <img src={nasa1} alt="" />
+        </div>
+       
+        <div>
+          <img src={nasa2} alt="" />
+        </div>
+       
+        <div>
+          <img src={nasa3} alt="" />
+        </div>
+       
+        <div>
+          <img src={nasa4} alt="" />
+        </div>
+       
+        <div className='mt-[30px]'>
+          <img src={nasa5} alt="" />
+        </div>
+       
+        <div className='mt-[30px] ml-[20px]'>
+          <img src={nasa6} alt="" />
+        </div>
+      </div>
 
     </div>
   )
