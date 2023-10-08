@@ -13,7 +13,7 @@ const Layout = () => {
           <img src={logo} className='' alt="" />
         </div>
 
-        <div className=' lii flex gap-[20px]'>
+        <div className=' lii flex gap-[20px] items-center'>
           <Link to={"/"}>
             <li>
               Home
@@ -26,7 +26,7 @@ const Layout = () => {
           </Link>
           <Link to={"Third"}>
             <li>
-              NOAA
+              Climat
             </li>
           </Link>
           <Link to={"Forth"}>
@@ -36,7 +36,7 @@ const Layout = () => {
           </Link> 
           <Link to={"Fifth"}>
             <li>
-              NIH
+              Социальное
             </li>
           </Link>
            <Link to={"Six"}>

@@ -59,8 +59,8 @@ const Home = () => {
           </div>
 
         <div className='w-[60%]'>
-            <p className='text-[80px]'>Climate change</p>
-            <p className='text-[30px]'>Rising global temperatures, changing weather patterns, and rising sea levels are caused by greenhouse gas emissions and ecosystem destruction.</p>
+            <p className='text-[50px]'>Climate change</p>
+            <p className='text-[28px]'>Rising global temperatures, changing weather patterns, and rising sea levels are caused by greenhouse gas emissions and ecosystem destruction.</p>
             <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
         </div>
         </div>    
@@ -68,8 +68,8 @@ const Home = () => {
       <div className='flex'>
         <div className='w-[70%] m-[auto]'>
          <div className='w-[70%] m-[auto]'>
-          <p className='text-[80px]'>Water issues</p>
-          <p className='text-[30px]'>Lack of clean drinking water, water pollution, and improper water resource management pose threats to human health and life.</p>
+          <p className='text-[50px]'>Water issues</p>
+          <p className='text-[28px]'>Lack of clean drinking water, water pollution, and improper water resource management pose threats to human health and life.</p>
           <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
           </div> 
         </div>
@@ -88,8 +88,8 @@ const Home = () => {
           </div>
 
         <div className='w-[60%]'>
-            <p className='text-[80px]'> Health and epidemics</p>
-            <p className='text-[30px]'>The spread of infectious diseases, lack of access to quality medical care, and the threat of pandemics have a significant impact on public health.</p>
+            <p className='text-[50px]'> Health and epidemics</p>
+            <p className='text-[28px]'>The spread of infectious diseases, lack of access to quality medical care, and the threat of pandemics have a significant impact on public health.</p>
             <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
         </div>
         </div> 
@@ -99,7 +99,7 @@ const Home = () => {
         <div className='w-[70%] m-[auto]'>
          <div className='w-[70%] m-[auto]'>
           <p className='text-[50px]'>Negative Impact of Technology</p>
-          <p className='text-[30px]'>While technology has many positive aspects and benefits, it can also have negative consequences.</p>
+          <p className='text-[28px]'>While technology has many positive aspects and benefits, it can also have negative consequences.</p>
           <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
           </div> 
         </div>
