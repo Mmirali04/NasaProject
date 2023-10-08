@@ -110,7 +110,7 @@ const Home = () => {
 
       </div>
 
-      <div className='flex flex-wrap justify-center mt-[50px]'>
+      <div className='flex flex-wrap justify-center mt-[50px] '>
         <div>
           <img src={nasa1} alt="" />
         </div>

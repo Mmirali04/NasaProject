@@ -39,7 +39,7 @@ body{
     width: 120%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%,-50%);
     animation: zoom-out 3s linear infinite;
 }
@@ -142,4 +142,13 @@ body{
 .dd{
     z-index: -1;
 }
-
+.ttt{
+    background-image:url("src/images/bggg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.ppp{
+    background-color: rgba(0, 0, 0, 0.6);
+}
