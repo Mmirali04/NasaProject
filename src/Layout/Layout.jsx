@@ -39,16 +39,16 @@ const Layout = () => {
               Социальное
             </li>
           </Link>
-           <Link to={"Six"}>
+           {/* <Link to={"Six"}>
             <li>
             USDA
             </li>
-          </Link>  
-          <Link to={"Seven"}>
+          </Link>   */}
+          {/* <Link to={"Seven"}>
             <li>
             EPA
             </li>
-          </Link>
+          </Link> */}
         </div>
 
 
