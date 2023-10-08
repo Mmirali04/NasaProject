@@ -46,11 +46,11 @@ const App = () => {
         // {
         //   path : "Six",
         //   element: <Six/>
-        // },
-        // {
-        //   path : "Seven",
-        //   element: <Seven/>
+
         // }
+
+        // },
+
       ]
     }
   ]) 
