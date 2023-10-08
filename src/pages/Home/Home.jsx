@@ -130,12 +130,7 @@ const Home = () => {
 
       </div>     
 
-      <div  className='flex justify-center pt-[50px] pb-[50px] ml-[50px]'>
-        <div className='w-[15%]'>
-          <a href="https://www.nasa.gov/">
-          <img src={nasa1} className='w-[50%] scaleee' alt="" />
-          </a>
-
+      {}
       <div className='flex flex-wrap justify-center mt-[50px] '>
         <div>
           <img src={nasa1} alt="" />
@@ -174,6 +169,7 @@ const Home = () => {
       </div>
 
     </div>
+    
   )
 }
 
