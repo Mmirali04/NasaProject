@@ -58,14 +58,9 @@ const Layout = () => {
             </li>
           </Link> */}
         </div>
-
-
-
       </div>
     
     </div>
-    
-
    <Outlet/>
 
     <div className='Footer bg-[black] pt-[30px]'>
@@ -83,9 +78,13 @@ const Layout = () => {
             <Link to={"/Forth"}>
             <p className='mt-[10px]'>Water issues</p>
             </Link>
+            
             <Link to={"/About"}>
             <p className='mt-[10px]'>Health and epidamics</p>
             </Link>
+
+
+
 
             <Link to={"/Fifth"}>
             <p className='mt-[10px]'>Social inequality</p>
