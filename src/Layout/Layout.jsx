@@ -8,7 +8,7 @@ const Layout = () => {
   return (
   <div>
     <div className=''>
-      <div className='bgg flex justify-between w-[90%] ml-[10%] pt-[1%] pr-[5%] text-[gold]'>
+      <div className='bgg flex items-center p-[1%]  justify-between w-[100%] pl-[10%] pt-[1%] pr-[5%] text-[gold]'>
         <div> 
           <img src={logo} className='' alt="" />
         </div>

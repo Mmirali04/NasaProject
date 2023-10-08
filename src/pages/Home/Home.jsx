@@ -27,22 +27,22 @@ const Home = () => {
         <div className="content">
             <div className="continents">
                 <div className="continent one">
-                    <a id="n-a" href="https://www.google.ru/maps/place/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0/@29.0686106,-153.5784602,3z/data=!3m1!4b1!4m6!3m5!1s0x52b30b71698e729d:0x131328839761a382!8m2!3d54.5259614!4d-105.2551187!16zL20vMDU5ZzQ?entry=ttu">North America</a>
+                    <a target='_blank' id="n-a" href="https://www.google.ru/maps/place/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0/@29.0686106,-153.5784602,3z/data=!3m1!4b1!4m6!3m5!1s0x52b30b71698e729d:0x131328839761a382!8m2!3d54.5259614!4d-105.2551187!16zL20vMDU5ZzQ?entry=ttu">North America</a>
                 </div>
                 <div className="continent two">
-                    <a id="s-a" href="https://www.google.ru/maps/place/%D0%AE%D0%B6%D0%BD%D0%B0%D1%8F+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0/@-13.5554014,-109.8572333,3z/data=!3m1!4b1!4m6!3m5!1s0x9409341c355d34b5:0x69d40ccfc9c6e32b!8m2!3d-8.783195!4d-55.491477!16zL20vMDZuM3k?entry=ttu">south America</a>
+                    <a target='_blank' id="s-a" href="https://www.google.ru/maps/place/%D0%AE%D0%B6%D0%BD%D0%B0%D1%8F+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0/@-13.5554014,-109.8572333,3z/data=!3m1!4b1!4m6!3m5!1s0x9409341c355d34b5:0x69d40ccfc9c6e32b!8m2!3d-8.783195!4d-55.491477!16zL20vMDZuM3k?entry=ttu">south America</a>
                 </div>
                 <div className="continent three">
-                    <a id="eur" href="https://www.google.ru/maps/place/%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0/@47.5479471,1.0083866,4z/data=!3m1!4b1!4m6!3m5!1s0x46ed8886cfadda85:0x72ef99e6b3fcf079!8m2!3d54.5259614!4d15.2551187!16zL20vMDJqOXo?entry=ttu">Europe</a>
+                    <a target='_blank' id="eur" href="https://www.google.ru/maps/place/%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0/@47.5479471,1.0083866,4z/data=!3m1!4b1!4m6!3m5!1s0x46ed8886cfadda85:0x72ef99e6b3fcf079!8m2!3d54.5259614!4d15.2551187!16zL20vMDJqOXo?entry=ttu">Europe</a>
                 </div>
                 <div className="continent four">
-                    <a id="afr" href="https://www.google.ru/maps/place/%D0%90%D1%84%D1%80%D0%B8%D0%BA%D0%B0/@1.4494091,-26.6488949,3z/data=!3m1!4b1!4m6!3m5!1s0x10a06c0a948cf5d5:0x108270c99e90f0b3!8m2!3d-8.783195!4d34.508523!16zL20vMGRnM24x?entry=ttu">Africa</a>
+                    <a target='_blank' id="afr" href="https://www.google.ru/maps/place/%D0%90%D1%84%D1%80%D0%B8%D0%BA%D0%B0/@1.4494091,-26.6488949,3z/data=!3m1!4b1!4m6!3m5!1s0x10a06c0a948cf5d5:0x108270c99e90f0b3!8m2!3d-8.783195!4d34.508523!16zL20vMGRnM24x?entry=ttu">Africa</a>
                 </div>
                 <div className="continent five">
-                    <a id="asi" href="https://www.google.ru/maps/place/%D0%90%D0%B7%D0%B8%D1%8F/@29,100,3z/data=!3m1!4b1!4m6!3m5!1s0x3663f18a24cbe857:0xa9416bfcd3a0f459!8m2!3d34.047863!4d100.6196553!16zL20vMGowaw?entry=ttu">Tajikistan</a>
+                    <a target='_blank' id="asi" href="https://www.google.ru/maps/place/%D0%90%D0%B7%D0%B8%D1%8F/@29,100,3z/data=!3m1!4b1!4m6!3m5!1s0x3663f18a24cbe857:0xa9416bfcd3a0f459!8m2!3d34.047863!4d100.6196553!16zL20vMGowaw?entry=ttu">Tajikistan</a>
                 </div>
                 <div className="continent six">
-                    <a id="aus" href="https://www.google.ru/maps/place/%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D1%8F/@-18.7342503,87.0416775,3z/data=!3m1!4b1!4m6!3m5!1s0x2b2bfd076787c5df:0x538267a1955b1352!8m2!3d-25.274398!4d133.775136!16zL20vMGNoZ2h5?entry=ttu">Australia</a>
+                    <a target='_blank' id="aus" href="https://www.google.ru/maps/place/%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D1%8F/@-18.7342503,87.0416775,3z/data=!3m1!4b1!4m6!3m5!1s0x2b2bfd076787c5df:0x538267a1955b1352!8m2!3d-25.274398!4d133.775136!16zL20vMGNoZ2h5?entry=ttu">Australia</a>
                 </div>
             </div>
         </div>
