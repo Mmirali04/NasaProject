@@ -43,14 +43,14 @@ const App = () => {
           path : "Fifth",
           element: <Fifth/>
         },
-        {
-          path : "Six",
-          element: <Six/>
-        },
-        {
-          path : "Seven",
-          element: <Seven/>
-        }
+        // {
+        //   path : "Six",
+        //   element: <Six/>
+        // }
+        // {
+        //   path : "Seven",
+        //   element: <Seven/>
+        // }
       ]
     }
   ]) 

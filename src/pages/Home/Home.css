@@ -7,3 +7,12 @@
     background-size: cover;
     border-radius: 10px;
 }
+
+.btn-blue:hover{
+    background: #0075CC;
+    color: white;
+}
+
+.scaleee:hover{
+    transform: scale(1.1);
+}

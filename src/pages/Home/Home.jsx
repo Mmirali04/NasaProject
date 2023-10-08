@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import climat from "../../assets/Climat.svg"
 import second from "../../assets/second.svg"
 import third from "../../assets/third.svg"
@@ -9,10 +9,22 @@ import nasa3 from "../../assets/nasa3.svg"
 import nasa4 from "../../assets/nasa4.svg"
 import nasa5 from "../../assets/nasa5.svg"
 import nasa6 from "../../assets/nasa6.svg"
+import cumchi2 from "../../assets/chumchi2.svg"
+import chumchi from "../../assets/chumchi.svg"
+import NavigateNextOutlinedIcon from '@mui/icons-material/NavigateNextOutlined';
 
  import "./Home.css"
 
+ import AOS from 'aos';
+ import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
+ 
+
 const Home = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div>
       <div className='hero'>
@@ -53,24 +65,28 @@ const Home = () => {
 
 
 
-        <div className='flex mt-[100px] items-center'>
+        <div data-aos="fade-right" data-aos-offset="250" data-aos-easing="ease-in-sine" className='flex mt-[100px] items-center'>
           <div className='w-[35%]'>
               <img src={climat} className='m-[auto]' alt="" />
           </div>
 
-        <div className='w-[60%]'>
+        <div  className='w-[60%]'>
             <p className='text-[50px]'>Climate change</p>
             <p className='text-[28px]'>Rising global temperatures, changing weather patterns, and rising sea levels are caused by greenhouse gas emissions and ecosystem destruction.</p>
-            <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+            <Link to={"/Third"}>
+            <button className='border w-[140px] p-[10px] border-[#0075CC] mt-[10px] text-[#0075CC] btn-blue'> Read More <NavigateNextOutlinedIcon sx={{color:"#0075CC"}}/></button>
+            </Link>
         </div>
         </div>    
 
-      <div className='flex'>
+      <div data-aos="fade-left" data-aos-offset="250" data-aos-easing="ease-in-sine" className='flex'>
         <div className='w-[70%] m-[auto]'>
          <div className='w-[70%] m-[auto]'>
           <p className='text-[50px]'>Water issues</p>
           <p className='text-[28px]'>Lack of clean drinking water, water pollution, and improper water resource management pose threats to human health and life.</p>
-          <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+          <Link to={"/Forth"}>
+          <button className='border w-[140px] p-[10px] border-[#0075CC] mt-[10px] text-[#0075CC] btn-blue'> Read More <NavigateNextOutlinedIcon sx={{color:"#0075CC"}}/></button>
+          </Link>
           </div> 
         </div>
 
@@ -82,7 +98,7 @@ const Home = () => {
 
 
 
-      <div className='flex mt-[100px] items-center'>
+      <div data-aos="fade-right" data-aos-offset="250" data-aos-easing="ease-in-sine" className='flex mt-[100px] items-center'>
           <div className='w-[35%]'>
               <img src={third} className='m-[auto]' alt="" />
           </div>
@@ -90,49 +106,71 @@ const Home = () => {
         <div className='w-[60%]'>
             <p className='text-[50px]'> Health and epidemics</p>
             <p className='text-[28px]'>The spread of infectious diseases, lack of access to quality medical care, and the threat of pandemics have a significant impact on public health.</p>
-            <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+            <Link to={"/About"}>
+            <button className='border w-[140px] p-[10px] border-[#0075CC] mt-[10px] text-[#0075CC] btn-blue'> Read More <NavigateNextOutlinedIcon className='brrrr' sx={{color:"#0075CC" }}/></button>
+            </Link>
         </div>
         </div> 
 
 
-        <div className='flex'>
+        <div data-aos="fade-left" data-aos-offset="250" data-aos-easing="ease-in-sine" className='flex mt-[100px] pb-[100px]'>
         <div className='w-[70%] m-[auto]'>
          <div className='w-[70%] m-[auto]'>
-          <p className='text-[50px]'>Negative Impact of Technology</p>
-          <p className='text-[28px]'>While technology has many positive aspects and benefits, it can also have negative consequences.</p>
-          <button className='border w-[120px] p-[10px] bg-[red] text-[white]'>Read More</button>
+          <p className='text-[50px]'>Social inequality </p>
+          <p className='text-[28px]'>The causes of social inequality include society's acceptance of roles, stereotyping, social organization by class (or class systems) and economic disparity, as well as legislation and political inequality.</p>
+          <Link to={"/Fifth"}>
+          <button className='border w-[140px] p-[10px] border-[#0075CC] mt-[10px] text-[#0075CC] btn-blue'> Read More <NavigateNextOutlinedIcon sx={{color:"#0075CC"}}/></button>
+          </Link>
           </div> 
         </div>
 
         <div className='w-[30%]'>
-          <img src={forth} alt="" />
+          <img src={chumchi} alt="" />
         </div>
 
       </div>
 
-      <div className='flex flex-wrap justify-center mt-[50px]'>
-        <div>
-          <img src={nasa1} alt="" />
+
+     
+
+
+       
+
+      <div  className='flex justify-center pt-[50px] pb-[50px] ml-[50px]'>
+        <div className='w-[15%]'>
+          <a href="https://www.nasa.gov/">
+          <img src={nasa1} className='w-[50%] scaleee' alt="" />
+          </a>
         </div>
        
-        <div>
-          <img src={nasa2} alt="" />
+        <div className='w-[15%]'>
+          <a href="https://www.noaa.gov/">
+          <img src={nasa2} className='w-[50%] scaleee' alt="" />
+          </a>
         </div>
        
-        <div>
-          <img src={nasa3} alt="" />
+        <div className='w-[15%]'>
+          <a href="https://www.usda.gov/">
+          <img src={nasa3} className='w-[50%] scaleee' alt="" />
+          </a>
         </div>
        
-        <div>
-          <img src={nasa4} alt="" />
+        <div className='w-[15%]'>
+          <a href="https://www.usgs.gov/">
+          <img src={nasa4} className='w-[50%] scaleee' alt="" />
+          </a>
         </div>
        
-        <div className='mt-[30px]'>
-          <img src={nasa5} alt="" />
+        <div className='w-[15%]'>
+          <a href="https://www.nih.gov/">
+          <img src={nasa5} className='w-[50%] scaleee' alt="" />
+          </a>
         </div>
        
-        <div className='mt-[30px] ml-[20px]'>
-          <img src={nasa6} alt="" />
+        <div className='w-[15%]'>
+          <a href="https://www.epa.gov/">
+          <img src={nasa6} className='w-[50%] scaleee' alt="" />
+          </a>
         </div>
       </div>
 
